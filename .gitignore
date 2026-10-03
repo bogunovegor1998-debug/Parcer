@@ -1,0 +1,45 @@
+﻿# ---- Секреты и окружение ----
+.env
+*.env
+!*.env.example
+*.session
+*.session-journal
+
+# ---- Данные и выгрузки (не публикуются) ----
+*.zip
+*.npy
+*.xlsx
+*.csv
+*.db
+*.sqlite
+*.sqlite3
+*.pkl
+*.pickle
+*.faiss
+*.log
+logs/
+exports/
+incoming_csv/
+data/
+
+# ---- Артефакты индексов FAISS ----
+faiss_store/
+**/faiss_store/
+faiss_micro/
+faiss_threads_store/
+archives/
+
+# ---- Старые версии кода ----
+версии/
+
+# ---- Python ----
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# ---- Прочее ----
+*.tmp
+.DS_Store
+Thumbs.db

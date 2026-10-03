@@ -1,0 +1,18 @@
+﻿python-telegram-bot==21.6
+SQLAlchemy==2.0.36
+pandas==2.2.2
+numpy==1.26.4
+sentence-transformers==3.0.1
+psycopg2-binary==2.9.9
+requests==2.32.3
+xlsxwriter==3.2.0
+openpyxl==3.1.5
+regex==2024.11.6
+python-dotenv==1.0.1
+telethon==1.42.0
+psycopg[binary]==3.2.3
+psycopg-pool==3.2.3
+faiss-cpu==1.9.0
+
+# Опционально: GPU-версия FAISS и torch ставятся отдельно под свою CUDA
+# (см. https://pytorch.org и faiss-gpu). Для CPU достаточно faiss-cpu.
